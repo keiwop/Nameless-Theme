@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Nameless-Theme
+Type=X-GNOME-Metatheme
+Comment=test
+Encoding=UTF-8
+GtkTheme=Flat-Plat
+MetacityTheme=Flat-Plat
+IconTheme=Numix-Circle
+CursorTheme=Adwaita
+CursorSize=24
