@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="96"
+   width="48"
    height="48"
-   viewBox="0 0 96 48.000001"
-   id="svg4147"
+   viewBox="0 0 48 48.000001"
+   id="svg4142"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="dash-placeholder.svg">
+   sodipodi:docname="close-window-active.svg">
   <defs
-     id="defs4149" />
+     id="defs4144" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,20 +25,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="32.824644"
-     inkscape:cy="11.599"
+     inkscape:zoom="11.2"
+     inkscape:cx="-5.0009599"
+     inkscape:cy="22.054145"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     units="px"
      inkscape:window-width="1600"
      inkscape:window-height="837"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
-     id="metadata4152">
+     id="metadata4147">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -55,17 +55,30 @@
      id="layer1"
      transform="translate(0,-1004.3622)">
     <circle
-       style="opacity:1;fill:#4caf50;fill-opacity:1;stroke:none;stroke-width:1.18419957;stroke-opacity:1"
-       id="path4695"
-       cx="48"
+       style="opacity:1;fill:#d32f2f;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="path4690"
+       cx="24"
        cy="1028.3622"
-       r="12" />
-    <rect
-       style="opacity:1;fill:#4caf50;fill-opacity:1;stroke:none;stroke-opacity:1"
-       id="rect4134"
-       width="96"
-       height="4"
-       x="0"
-       y="1026.3622" />
+       r="24" />
+    <g
+       id="g5248"
+       transform="matrix(0.5625,-0.5625,0.5625,0.5625,-567.95373,463.40847)"
+       style="fill:#ffebee;fill-opacity:1">
+      <rect
+         y="1014.3622"
+         x="22"
+         height="28"
+         width="4"
+         id="rect5231"
+         style="opacity:1;fill:#ffebee;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-38"
+         x="1026.3622"
+         height="28"
+         width="4"
+         id="rect5231-4"
+         style="opacity:1;fill:#ffebee;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
