@@ -2,15 +2,22 @@
 // it gets @if ed depending on $variant
 
 
-$base_color: if($variant =='light', #ffffff, #292929);
-$bg_color: if($variant =='light', #ededed, #393f3f);
-$fg_color: if($variant =='light', #2e3436, #eeeeec);
+$base_color: if($variant =='light', #1B5E20, #292929);
+$bg_color: if($variant =='light', #4CAF50, #393f3f);
+$fg_color: if($variant =='light', #E8F5E9, #eeeeec);
+$bg_top_bar: if($variant =='light', #4CAF50, black);
+$fg_top_bar: if($variant =='light', #E8F5E9, #ccc);
+$dash_bg: transparent;
+$entry_color: darken($bg_color, 5%);
 
-$selected_fg_color: #ffffff;
-$selected_bg_color: if($variant == 'light', #4a90d9, darken(#4a90d9,20%));
+$accent_color: #9C27B0;
+$selected_fg_color: #E8F5E9;
+$selected_bg_color: if($variant == 'light', #FFC107, darken(#4a90d9,20%));
 $selected_borders_color: if($variant=='light', darken($selected_bg_color, 30%),
                                                darken($selected_bg_color, 20%));
-$borders_color: if($variant =='light', darken($bg_color,30%), darken($bg_color,12%));
+$borders_color: if($variant =='light', darken(#ff0000, 0%), darken($bg_color,12%));
+$borders_color_in: if($variant =='light', darken($bg_color, 5%), darken($bg_color,12%));
+$separator_color: if($variant =='light', darken($bg_color, 5%), darken($bg_color,12%));
 $borders_edge: if($variant =='light', white, transparentize($fg_color, 0.9));
 $link_color: if($variant == 'light', darken($selected_bg_color,10%),
                                      lighten($selected_bg_color,20%));
@@ -18,13 +25,16 @@ $link_visited_color: if($variant == 'light', darken($selected_bg_color,20%),
                                      lighten($selected_bg_color,10%));
 $top_hilight: $borders_edge;
 
-$warning_color: #f57900;
+$warning_color: #f44336;
 $error_color: #cc0000;
 $success_color: if($variant =='light', #73d216, darken(#73d216,10%));
 $destructive_color: if($variant =='light', #ef2929, darken(#ef2929,10%));
 
 $osd_fg_color: #eeeeec;
-$osd_bg_color: #2e3436;
+/*$osd_bg_color: #2e3436;*/
+$osd_bg_color: #ff0000;
+$osd_panel_bg_color: $bg_color;
+$osd_panel_fg_color: darken($bg_color, 5%);
 $osd_borders_color: transparentize(black, 0.3);
 $osd_outer_borders_color: transparentize(white, 0.9);
 
@@ -42,3 +52,4 @@ $backdrop_fg_color: mix($fg_color, $backdrop_bg_color, 80%);
 $backdrop_insensitive_color: if($variant =='light', darken($backdrop_bg_color,15%), lighten($backdrop_bg_color,15%));
 $backdrop_borders_color: mix($borders_color, $bg_color, 90%);
 $backdrop_dark_fill: mix($backdrop_borders_color,$backdrop_bg_color, 35%);
+

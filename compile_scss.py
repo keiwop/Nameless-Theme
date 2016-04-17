@@ -14,7 +14,7 @@ for scss_path in scss_list:
 	print("css path:", css_path)
 	
 	namespace = Namespace()
-	namespace.set_variable("$variant", String("dark"))
+	namespace.set_variable("$variant", String("light"))
 	css_data = compiler.compile_file(scss_path, namespace=namespace)
 	with open(css_path, "w") as css_file:
 		css_file.write(css_data)
